@@ -103,6 +103,11 @@ shotsManager.config([
 	"shot1", "shot2", "shot3"
 ]);
 
+/**
+ * This is the camera that will be used to play the shots.
+ * Here we say the shots manager what camera to control to copy the transforms of the sequence cameras.
+ */
+shotsManager.targetCamera = camera;
 
 /**
  * This method will start playing the sequence defined in `.config`
